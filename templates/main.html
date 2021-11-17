@@ -55,66 +55,67 @@
 
             <legend>Input Variables</legend>
             
-            <br>Bedrooms:<br>
+            <br>Bedrooms: (Number of bedrooms)<br>
             <input name="bedrooms" type="number" class="form-control" required>
             <br>
 
-            <br>Bathrooms:<br>
+            <br>Bathrooms: (Number of bathrooms) <br>
             <input name="bathrooms" type="number" class="form-control" required>
             <br>
 
-            <br>Living space in sqft<br>
+            <br>Living space in sqft: (Size of living area in square feet)<br>
             <input name="sqft_living" type="number" class="form-control" required>
             <br>
 
-            <br>Lot in sqft<br>
+            <br>Lot in sqft: (Size of the lot in square feet)<br>
             <input name="sqft_lot" type="number" class="form-control" required>
             <br>
 
-            <br>Floors<br>
+            <br>Floors: (Number of floors)<br>
             <input name="floors" type="number" class="form-control" required>
             <br>
 
-            <br>Waterfront<br>
+            <br>Waterfront (‘1’ if the property has a waterfront, ‘0’ if not)<br>
             <input name="waterfront" type="number" class="form-control" required>
             <br>
 
-            <br>View<br>
+            <br>View: (An index from 0 to 4 of how good the view of the property was)<br>
             <input name="view" type="number" class="form-control" required>
             <br> Landsize
 
-            <br>Condition<br>
+            <br>Condition: (Condition of the house, ranked from 1 to 5)<br>
             <input name="condition" type="number" class="form-control" required>
             <br>
 
-            <br>Grade<br>
+            <br>Grade: ( 	Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value)<br>
             <input name="grade" type="number" class="form-control" required>
             <br>
 
-            <br>Sqft_above<br>
+            <br>Sqft_above: (Square feet above ground)<br>
             <input name="sqft_above" type="number" class="form-control" required>
 
-            <br>sqft_basement<br>
+            <br>sqft_basement: (Square feet below ground)<br>
             <input name="sqft_basement" type="number" class="form-control" required>
 
-            <br>Year Built<br>
+            <br>Year Built: (Year built)<br>
             <input name="yr_built" type="number" class="form-control" required>
 
-            <br>Year Renovated<br>
+            <br>Year Renovated: (Year renovated. ‘0’ if never renovated)<br>
             <input name="yr_renovated" type="number" class="form-control" required>
             
-            <br>Zipcode<br>
+            <br>Zipcode: (5 digit zip code)<br>
             <input name="zipcode" type="number" class="form-control" required>
             
-            <br>Latitude<br>
+            <br>Latitude: (Latitude)<br>
             <input name="lat" type="number" class="form-control" required>
             
-            <br>Longitude<br>
+            <br>Longitude: (Longitude)<br>
             <input name="long" type="number" class="form-control" required>
             
-            <br>sqft_living15<br>
+            <br>sqft_living15: (Average size of interior housing living space for the closest 15 houses, in square feet)<br>
             <input name="sqft_living15" type="number" class="form-control" required>
-            <br>sqft_lot15<br>
+            
+            <br>sqft_lot15: (Average size of land lots for the closest 15 houses, in square feet)<br>
             <input name="sqft_lot15" type="number" class="form-control" required>
 
 
@@ -137,19 +138,6 @@
         <p style="font-size:50px">${{ result }}</p>
         {% endif %}
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
