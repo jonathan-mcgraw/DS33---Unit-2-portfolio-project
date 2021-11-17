@@ -1,4 +1,5 @@
-Flask==1.0.3
-joblib==0.13.2
-pandas==1.1.5
-gunicorn==19.9.0
+Flask
+joblib
+pandas
+gunicorn
+joblib
