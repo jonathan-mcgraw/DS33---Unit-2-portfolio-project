@@ -5,3 +5,4 @@ pandas
 gunicorn
 dash
 sklearn
+category_encoders
